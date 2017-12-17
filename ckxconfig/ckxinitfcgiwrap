@@ -1,0 +1,6 @@
+#!/bin/bash
+rm -rf /var/run/fcgiwrap.socket
+fcgiwrap -f -s unix:/var/run/fcgiwrap.socket &
+sleep 1
+chmod a+rw /var/run/fcgiwrap.socket
+nginx -g "daemon off;"

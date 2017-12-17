@@ -1,11 +1,12 @@
 services:
-    image: nginx:stable
-    restart: unless-stopped
+    image: nginx_with_fcgiwrap
     volumes:
-      - ./nginx/conf.d:/etc/nginx/conf.d         
-      - ./wwwhtml:/usr/share/nginx/html       
-      - ./lognginx:/var/log/nginx             
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./wwwhtml:/usr/share/nginx/html
+      - ./lognginx:/var/log/nginx
+      - ./ckxconfig:/root/ckxconfig
     ports:
-      - "8021:80"
+      - "8022:80"
     environment:
       - NGINX_PORT=80
+    command: /bin/bash /root/ckxconfig/ckxinitfcgiwrap

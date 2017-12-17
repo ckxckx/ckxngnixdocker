@@ -1,0 +1,202 @@
+2017/12/17 10:47:16 [error] 269#269: *96 FastCGI sent in stderr: "Cannot get script name, are DOCUMENT_ROOT and SCRIPT_NAME (or SCRIPT_FILENAME) set and is the script executable?" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 10:47:31 [error] 269#269: *96 FastCGI sent in stderr: "Cannot get script name, are DOCUMENT_ROOT and SCRIPT_NAME (or SCRIPT_FILENAME) set and is the script executable?" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 10:48:59 [error] 269#269: *105 FastCGI sent in stderr: "Cannot execute script (/usr/share/nginx/html/cgi-bin/ckx.cgi)" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 10:49:00 [error] 269#269: *105 FastCGI sent in stderr: "Cannot execute script (/usr/share/nginx/html/cgi-bin/ckx.cgi)" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 10:50:19 [error] 269#269: *105 FastCGI sent in stderr: "Cannot execute script (/usr/share/nginx/html/cgi-bin/ckx.cgi)" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 10:51:13 [error] 269#269: *105 FastCGI sent in stderr: "Cannot execute script (/usr/share/nginx/html/cgi-bin/ckx.cgi)" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 10:51:29 [error] 269#269: *105 FastCGI sent in stderr: "Cannot execute script (/usr/share/nginx/html/cgi-bin/ckx.cgi)" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 10:51:31 [error] 269#269: *105 FastCGI sent in stderr: "Cannot execute script (/usr/share/nginx/html/cgi-bin/ckx.cgi)" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 10:53:27 [error] 269#269: *118 FastCGI sent in stderr: "Cannot execute script (/usr/share/nginx/html/cgi-bin/ckx.cgi)" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:10:49 [error] 269#269: *121 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:10:51 [error] 269#269: *121 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:18:57 [error] 269#269: *140 FastCGI sent in stderr: "  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 12
+SyntaxError: Non-ASCII character '\xe7' in file /usr/share/nginx/html/cgi-bin/ckx.cgi on line 12, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:18:57 [error] 269#269: *140 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:19:17 [error] 269#269: *140 FastCGI sent in stderr: "  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 12
+SyntaxError: Non-ASCII character '\xe7' in file /usr/share/nginx/html/cgi-bin/ckx.cgi on line 12, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:19:17 [error] 269#269: *140 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:19:23 [error] 269#269: *140 FastCGI sent in stderr: "  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 12
+SyntaxError: Non-ASCII character '\xe7' in file /usr/share/nginx/html/cgi-bin/ckx.cgi on line 12, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:19:23 [error] 269#269: *140 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:20:02 [error] 269#269: *140 FastCGI sent in stderr: "  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 13
+SyntaxError: Non-ASCII character '\xe7' in file /usr/share/nginx/html/cgi-bin/ckx.cgi on line 13, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:20:02 [error] 269#269: *140 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:20:04 [error] 269#269: *140 FastCGI sent in stderr: "  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 13
+SyntaxError: Non-ASCII character '\xe7' in file /usr/share/nginx/html/cgi-bin/ckx.cgi on line 13, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:20:04 [error] 269#269: *140 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:20:18 [error] 269#269: *140 FastCGI sent in stderr: "  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 13
+SyntaxError: Non-ASCII character '\xe7' in file /usr/share/nginx/html/cgi-bin/ckx.cgi on line 13, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:20:18 [error] 269#269: *140 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:20:29 [error] 269#269: *140 FastCGI sent in stderr: "  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 11
+SyntaxError: Non-ASCII character '\xe7' in file /usr/share/nginx/html/cgi-bin/ckx.cgi on line 11, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:20:29 [error] 269#269: *140 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:20:30 [error] 269#269: *140 FastCGI sent in stderr: "  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 11
+SyntaxError: Non-ASCII character '\xe7' in file /usr/share/nginx/html/cgi-bin/ckx.cgi on line 11, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:20:30 [error] 269#269: *140 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:20:53 [error] 269#269: *140 FastCGI sent in stderr: "  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 10
+SyntaxError: Non-ASCII character '\xe7' in file /usr/share/nginx/html/cgi-bin/ckx.cgi on line 10, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:20:53 [error] 269#269: *140 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:21:08 [error] 269#269: *140 FastCGI sent in stderr: "  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 8
+SyntaxError: Non-ASCII character '\xe7' in file /usr/share/nginx/html/cgi-bin/ckx.cgi on line 8, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:21:08 [error] 269#269: *140 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:21:36 [error] 269#269: *140 FastCGI sent in stderr: "  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 6
+SyntaxError: Non-ASCII character '\xe7' in file /usr/share/nginx/html/cgi-bin/ckx.cgi on line 6, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:21:36 [error] 269#269: *140 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:23:15 [error] 269#269: *140 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 13, in <module>
+    for key in os.environ.keys():
+NameError: name 'os' is not defined" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:23:15 [error] 269#269: *140 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:23:32 [error] 269#269: *140 FastCGI sent in stderr: "  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 15
+    Eprint "</ul>"
+                 ^
+SyntaxError: invalid syntax" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:23:32 [error] 269#269: *140 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:24:10 [error] 269#269: *140 FastCGI sent in stderr: "  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 15
+    Eprint "</ul>"
+                 ^
+SyntaxError: invalid syntax" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:24:10 [error] 269#269: *140 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?flag=saaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:24:45 [error] 269#269: *140 FastCGI sent in stderr: "  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 15
+    Eprint "</ul>"
+                 ^
+SyntaxError: invalid syntax" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:24:45 [error] 269#269: *140 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:24:47 [error] 269#269: *140 FastCGI sent in stderr: "  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 15
+    Eprint "</ul>"
+                 ^
+SyntaxError: invalid syntax" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:24:47 [error] 269#269: *140 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:34:42 [error] 269#269: *183 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 14, in <module>
+    for key in os.environ.keys():
+NameError: name 'os' is not defined" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:34:45 [error] 269#269: *183 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 14, in <module>
+    for key in os.environ.keys():
+NameError: name 'os' is not defined" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:35:21 [error] 269#269: *183 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 14, in <module>
+    for key in os.environ.keys():
+NameError: name 'os' is not defined" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:43:16 [error] 269#269: *198 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 14, in <module>
+    for key in os.environ.keys():
+NameError: name 'os' is not defined" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:43:19 [error] 269#269: *198 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 14, in <module>
+    for key in os.environ.keys():
+NameError: name 'os' is not defined" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:52:42 [error] 269#269: *202 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 14, in <module>
+    for key in os.environ.keys():
+NameError: name 'os' is not defined" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:52:44 [error] 269#269: *202 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 14, in <module>
+    for key in os.environ.keys():
+NameError: name 'os' is not defined" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:52:52 [error] 269#269: *202 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 14, in <module>
+    for key in os.environ.keys():
+NameError: name 'os' is not defined" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:53:31 [error] 269#269: *202 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 14, in <module>
+    for key in os.environ.keys():
+NameError: name 'os' is not defined" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:53:33 [error] 269#269: *202 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 14, in <module>
+    for key in os.environ.keys():
+NameError: name 'os' is not defined" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:53:50 [error] 269#269: *202 FastCGI sent in stderr: "  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 14
+    print "<li>ok</li>"
+    ^
+IndentationError: unexpected indent" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:53:50 [error] 269#269: *202 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:54:04 [error] 269#269: *202 FastCGI sent in stderr: "  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 14
+    print "<li>ok</li>"
+    ^
+IndentationError: unexpected indent" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 12:54:04 [error] 269#269: *202 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 13:11:16 [error] 269#269: *235 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 17, in <module>
+    print form["username"]
+  File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__
+    raise KeyError, key
+KeyError: 'username'" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 13:13:28 [error] 269#269: *239 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 25, in <module>
+    for key in os.environ.keys():
+NameError: name 'os' is not defined" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?username=ckx HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 13:13:30 [error] 269#269: *239 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 25, in <module>
+    for key in os.environ.keys():
+NameError: name 'os' is not defined" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?username=ckx HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 13:13:32 [error] 269#269: *239 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 25, in <module>
+    for key in os.environ.keys():
+NameError: name 'os' is not defined" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?username=ckx HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 13:17:58 [error] 269#269: *244 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 22, in <module>
+    print username
+NameError: name 'username' is not defined" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?username=ckx HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 13:18:00 [error] 269#269: *244 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 22, in <module>
+    print username
+NameError: name 'username' is not defined" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?username=ckx HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 13:18:31 [error] 269#269: *244 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 23, in <module>
+    print username
+NameError: name 'username' is not defined" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?username=ckx HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 13:19:00 [error] 269#269: *244 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 24, in <module>
+    print username
+NameError: name 'username' is not defined" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?username=ckx HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 13:19:02 [error] 269#269: *244 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 24, in <module>
+    print username
+NameError: name 'username' is not defined" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?username=ckx HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 13:19:03 [error] 269#269: *244 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 24, in <module>
+    print username
+NameError: name 'username' is not defined" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?username=ckx HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 13:19:30 [error] 269#269: *244 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 24, in <module>
+    print username
+NameError: name 'username' is not defined" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?username=ckx HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 13:19:32 [error] 269#269: *244 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 24, in <module>
+    print username
+NameError: name 'username' is not defined" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?username=ckx HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 13:19:34 [error] 269#269: *244 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 24, in <module>
+    print username
+NameError: name 'username' is not defined" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?username=ckx HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 13:19:56 [error] 269#269: *244 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 32, in <module>
+    for key in os.environ.keys():
+NameError: name 'os' is not defined" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?username=ckx HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 13:32:16 [error] 5#5: *1 connect() to unix:/var/run/fcgiwrap.socket failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?username=ckx HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 13:32:18 [error] 5#5: *1 connect() to unix:/var/run/fcgiwrap.socket failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?username=ckx HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 13:32:19 [error] 5#5: *1 connect() to unix:/var/run/fcgiwrap.socket failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?username=ckx HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 13:32:21 [error] 5#5: *1 connect() to unix:/var/run/fcgiwrap.socket failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?username=ckx HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 13:32:23 [error] 5#5: *1 connect() to unix:/var/run/fcgiwrap.socket failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?username=ckx HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 13:32:24 [error] 5#5: *1 connect() to unix:/var/run/fcgiwrap.socket failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi?username=ckx HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 13:32:29 [error] 5#5: *1 connect() to unix:/var/run/fcgiwrap.socket failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/echo.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 13:35:31 [error] 5#5: *11 connect() to unix:/var/run/fcgiwrap.socket failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/echo.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 13:35:33 [error] 5#5: *11 connect() to unix:/var/run/fcgiwrap.socket failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/echo.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 14:08:49 [crit] 6#6: *3 connect() to unix:/var/run/fcgiwrap.socket failed (2: No such file or directory) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/echo.cgi?file=aaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 14:08:51 [crit] 6#6: *3 connect() to unix:/var/run/fcgiwrap.socket failed (2: No such file or directory) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/echo.cgi?file=aaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 14:08:52 [crit] 6#6: *3 connect() to unix:/var/run/fcgiwrap.socket failed (2: No such file or directory) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/echo.cgi?file=aaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 14:08:54 [crit] 6#6: *3 connect() to unix:/var/run/fcgiwrap.socket failed (2: No such file or directory) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/echo.cgi?file=aaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 14:10:09 [crit] 6#6: *9 connect() to unix:/var/run/fcgiwrap.socket failed (13: Permission denied) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/echo.cgi?file=aaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 14:10:11 [crit] 6#6: *9 connect() to unix:/var/run/fcgiwrap.socket failed (13: Permission denied) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/echo.cgi?file=aaa HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 14:10:16 [crit] 6#6: *9 connect() to unix:/var/run/fcgiwrap.socket failed (13: Permission denied) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/echo.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 14:11:56 [error] 7#7: *1 connect() to unix:/var/run/fcgiwrap.socket failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/echo.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8021"
+2017/12/17 14:46:01 [crit] 6#6: *2 connect() to unix:/var/run/fcgiwrap.socket failed (2: No such file or directory) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/echo.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8022"
+2017/12/17 14:46:08 [crit] 6#6: *2 connect() to unix:/var/run/fcgiwrap.socket failed (2: No such file or directory) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/echo.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8022"
+2017/12/17 14:55:56 [error] 10#10: *5 FastCGI sent in stderr: "Traceback (most recent call last):
+  File "/usr/share/nginx/html/cgi-bin/ckx.cgi", line 18, in <module>
+    print form["username"]
+  File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__
+    raise KeyError, key
+KeyError: 'username'" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /cgi-bin/ckx.cgi HTTP/1.1", upstream: "fastcgi://unix:/var/run/fcgiwrap.socket:", host: "localhost:8022"
